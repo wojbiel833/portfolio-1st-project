@@ -52,7 +52,7 @@ section {
   height: 30px;
   top: 35px;
   max-width: 100%;
-  padding: 0 10px;
+  padding: 50px 100px;
 }
 
 .navigation a {
@@ -738,6 +738,7 @@ img {
   position: relative;
   display: block;
   height: 60vh;
+  margin: 0 100px;
 }
 
 .footer:after {
@@ -752,6 +753,7 @@ img {
   left: 0;
   bottom: 0;
   right: 0;
+  margin-left: -100px;
   position: absolute;
   z-index: -1;
 }
@@ -777,7 +779,7 @@ img {
 }
 
 .footer-menu {
-  margin: 20px -50px 0 0;
+  margin: 20px 0 0 0;
   font-size: 10px;
 }
 
@@ -967,7 +969,7 @@ img {
   }
   .footer .container .rights {
     margin-left: 0;
-    width: 300px;
+    width: 100%;
   }
   .footer .container .rights p {
     margin-top: 6px;
@@ -1043,7 +1045,7 @@ img {
   }
   .demo-1 img,
   .demo-2 img {
-    width: 100wv;
+    width: 100%;
     margin-left: auto;
   }
   .team-head {
@@ -1070,8 +1072,8 @@ img {
   }
   .map-box {
     display: block;
-    width: 100vw;
-    margin-left: -128px;
+    width: 100%;
+    margin-left: 0;
   }
   .map-box .map-description {
     -ms-flex: 1;
@@ -1094,28 +1096,60 @@ img {
     width: 90%;
   }
   .extention .extention-inner .btn-end:hover a {
-    margin-left: 60%;
+    margin-left: 40%;
   }
   .extention .extention-inner a {
-    margin-left: -60%;
+    margin-left: -40%;
+  }
+  .footer:after {
+    background-size: cover;
+  }
+  .footer .container {
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .footer .container .rights {
-    font-size: 20px;
-    margin-left: -120px;
-    width: 200px;
+    margin-left: 0;
+    width: 100%;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
   .footer .container .rights p {
+    margin-left: -50px;
+    margin-top: 6px;
     width: 300px;
   }
   .footer .container .rights img {
     height: 25px;
     width: 25px;
+    margin-left: 100px;
   }
   .footer-menu {
-    margin-left: 80px;
-  }
-  .footer-menu .menu li:last-of-type {
     margin: 0;
+  }
+  .footer-menu .menu {
+    -ms-flex-flow: wrap column;
+        flex-flow: wrap column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin: 0 auto;
+  }
+  .footer-menu .menu li {
+    z-index: 1;
+    padding: 10px 0;
+  }
+  .footer-menu .menu li:hover {
+    z-index: 3;
+  }
+  .footer-menu .menu li li {
+    margin: 0;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 10px 0;
+    width: 130px;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
 }
 
@@ -1158,7 +1192,7 @@ img {
   }
   .demo-1 img,
   .demo-2 img {
-    width: 100wv;
+    width: 100%;
     margin-left: auto;
   }
   .team-head {
@@ -1185,8 +1219,8 @@ img {
   }
   .map-box {
     display: block;
-    width: 100vw;
-    margin-left: -150px;
+    width: 100%;
+    margin-left: 0;
   }
   .map-box .map-description {
     -ms-flex: 1;
@@ -1209,28 +1243,60 @@ img {
     width: 90%;
   }
   .extention .extention-inner .btn-end:hover a {
-    margin-left: 70%;
+    margin-left: 60%;
   }
   .extention .extention-inner a {
-    margin-left: -70%;
+    margin-left: -60%;
+  }
+  .footer:after {
+    background-size: cover;
+  }
+  .footer .container {
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .footer .container .rights {
-    font-size: 20px;
-    margin-left: -130px;
-    width: 400px;
+    margin-left: 0;
+    width: 100%;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
   .footer .container .rights p {
+    margin-left: -50px;
+    margin-top: 6px;
     width: 300px;
   }
   .footer .container .rights img {
     height: 25px;
     width: 25px;
+    margin-left: 100px;
   }
   .footer-menu {
-    margin-left: 150px;
-  }
-  .footer-menu .menu li:last-of-type {
     margin: 0;
+  }
+  .footer-menu .menu {
+    -ms-flex-flow: nowrap row;
+        flex-flow: nowrap row;
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin: 0 auto;
+  }
+  .footer-menu .menu li {
+    z-index: 1;
+    padding: 10px 0;
+  }
+  .footer-menu .menu li:hover {
+    z-index: 3;
+  }
+  .footer-menu .menu li li {
+    margin: 0;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 10px 0;
+    width: 130px;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
 }
 
