@@ -1222,4 +1222,20 @@ img {
     margin: 0;
   }
 }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .service-icon {
+    left: -50px;
+  }
+  .prices .container .price-box .price-det p:last-of-type {
+    text-align: center;
+    margin-top: -10px;
+  }
+  .extention .extention-inner .btn-end:hover a {
+    margin-left: 50%;
+  }
+  .extention .extention-inner a {
+    margin-left: -50%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
