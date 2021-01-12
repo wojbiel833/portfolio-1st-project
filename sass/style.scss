@@ -39,7 +39,7 @@ body {
   background: $color-main;
   font-family: $font-main;
   color: $color-light;
-  margin: 0 5px;
+  margin: 0;
   text-align: center;
 }
 section {
@@ -52,7 +52,7 @@ section {
   position: absolute;
   display: flex;
   justify-content: space-between;
-  width: 95vw;
+  width: 100%;
   height: 30px;
   top: 35px;
   max-width: 100%;
@@ -129,7 +129,7 @@ section {
   text-align: center;
   color: white;
   height: 100vh;
-  max-width: 100vw;
+  max-width: 100%;
   background-image: url("https://i.ibb.co/C9WK6cp/pexels-north-1407322-1.jpg");
   background-position: center center;
   background-size: cover;
@@ -194,7 +194,7 @@ section {
   }
 }
 .splash-img {
-  max-width: 100vw;
+  max-width: 100%;
   min-height: 500px;
   object-fit: cover;
 }
@@ -354,7 +354,7 @@ img {
 
 .team-head {
   position: relative;
-  max-width: 100vw;
+  max-width: 100%;
   height: 100vh;
   background-image: url("https://i.ibb.co/Z6cZKMk/pexels-csongor-kem-ny-3690052.jpg");
   background-position: center center;
@@ -853,8 +853,7 @@ img {
   }
   .price-box {
     display: block;
-    width: 80vw;
-    margin-left: -70px;
+    width: 100%;
 
     .price-det {
       h3 {
@@ -871,10 +870,11 @@ img {
       }
     }
   }
+
   .map-box {
+    width: 150%;
     display: block;
-    width: 100vw;
-    margin-left: -110px;
+    margin-left: -40px;
 
     .map-description {
       flex: 1;
@@ -907,11 +907,15 @@ img {
   }
   .footer {
     &:after {
+      background-size: cover;
     }
     .container {
+      justify-content: center;
+      flex-wrap: wrap;
+
       .rights {
         margin-left: 0;
-        width: 200px;
+        width: 300px;
         p {
           margin-top: 6px;
           width: 300px;
@@ -932,15 +936,18 @@ img {
       margin: 0 auto;
 
       li {
-        left: 50%;
-        transform: translateX(-50%);
         z-index: 1;
+        padding: 10px 0;
+
+        &:hover {
+          z-index: 3;
+        }
         li {
           margin: 0;
           background: rgba(0, 0, 0, 0.75);
           padding: 10px 0;
           width: 130px;
-          z-index: 2;
+          justify-content: center;
         }
       }
     }
