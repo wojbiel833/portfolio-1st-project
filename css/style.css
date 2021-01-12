@@ -46,9 +46,8 @@ section {
   position: absolute;
   display: -ms-flexbox;
   display: flex;
-  background: rgba(0, 0, 0, 0.35);
   -ms-flex-pack: justify;
-  justify-content: space-between;
+      justify-content: space-between;
   width: 95vw;
   height: 30px;
   top: 35px;
@@ -82,7 +81,7 @@ section {
 .logo img {
   width: 100%;
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
 }
 
 .menu {
@@ -116,7 +115,6 @@ section {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background: rgba(0, 0, 0, 0.35);
   z-index: 2;
   left: 50%;
   transform: translateX(-50%);
@@ -144,7 +142,7 @@ section {
   min-height: 500px;
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .splash-inner {
@@ -204,7 +202,7 @@ section {
   max-width: 100vw;
   min-height: 500px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 /* About us */
@@ -212,7 +210,7 @@ section {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: column wrap;
-  flex-flow: column wrap;
+      flex-flow: column wrap;
   text-align: center;
 }
 
@@ -240,12 +238,12 @@ section {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+      flex-flow: row wrap;
 }
 
 .about-item {
   -ms-flex: 0 0 25%;
-  flex: 0 0 25%;
+      flex: 0 0 25%;
   text-align: center;
   padding: 5px;
 }
@@ -255,9 +253,9 @@ section {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
-  align-items: center;
+      align-items: center;
   -ms-flex-pack: center;
-  justify-content: center;
+      justify-content: center;
   width: 0;
   height: 0;
   padding: 60px;
@@ -283,9 +281,9 @@ section {
   margin: 5px;
   color: #d63031;
   -ms-flex-pack: center;
-  justify-content: center;
+      justify-content: center;
   -ms-flex-align: center;
-  align-items: center;
+      align-items: center;
 }
 
 .btn-2 {
@@ -334,7 +332,7 @@ section {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
-  flex-direction: column;
+      flex-direction: column;
   position: relative;
 }
 
@@ -356,7 +354,7 @@ section {
 .demo-2 {
   padding: 80px 0;
   -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
+      flex-direction: row-reverse;
 }
 
 .demo-2 .demo-img {
@@ -374,7 +372,7 @@ img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 /* Executive */
@@ -404,7 +402,7 @@ img {
   width: 200px;
   height: 200px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .team-head img:hover {
@@ -431,7 +429,7 @@ img {
   width: 100px;
   height: 100px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   border-radius: 50%;
 }
 
@@ -478,7 +476,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+      justify-content: space-between;
   padding: 30px;
 }
 
@@ -523,13 +521,13 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .gallery-wrapper .gallery-item {
   position: relative;
   -ms-flex: 0 0 20%;
-  flex: 0 0 20%;
+      flex: 0 0 20%;
   max-width: 20%;
   text-align: center;
   margin: 0;
@@ -540,7 +538,7 @@ img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .gallery-wrapper .gallery-item figcaption {
@@ -599,7 +597,7 @@ img {
 
 .price-box {
   -ms-flex: 0 0 20%;
-  flex: 0 0 20%;
+      flex: 0 0 20%;
   display: -ms-flexbox;
   display: flex;
   text-align: left;
@@ -630,7 +628,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+      justify-content: space-between;
   padding: 15px 30px;
   color: #fff;
   box-shadow: 0 0 40px 40px #940000 inset, 0 0 0 0 rgba(122, 5, 5, 0.99);
@@ -658,7 +656,7 @@ img {
 
 .map-box .map-description {
   -ms-flex: 2;
-  flex: 2;
+      flex: 2;
   padding: 20px;
 }
 
@@ -668,7 +666,7 @@ img {
 
 .map-box .map-img {
   -ms-flex: 3;
-  flex: 3;
+      flex: 3;
 }
 
 /* Extention */
@@ -687,7 +685,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: wrap column;
-  flex-flow: wrap column;
+      flex-flow: wrap column;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -708,11 +706,7 @@ img {
   margin-top: -30px;
   border-radius: 15px;
   color: #fff;
-  background-image: linear-gradient(
-    45deg,
-    rgba(153, 0, 0, 0.67) 50%,
-    transparent 50%
-  );
+  background-image: linear-gradient(45deg, rgba(153, 0, 0, 0.67) 50%, transparent 50%);
   background-position: 100%;
   background-size: 400%;
   transition: background 2s ease-in-out;
@@ -766,7 +760,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+      justify-content: space-between;
 }
 
 .footer .container .rights {
@@ -857,18 +851,21 @@ img {
     font-size: 25px;
   }
   .menu ul li {
-    margin: 30px 0 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 30px 0;
+    width: 150px;
   }
   .about-item {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
+    -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
   }
   .demonstration .container {
     max-width: 100%;
   }
   .demo-1,
   .demo-2 {
-    height: 650px;
+    height: 850px;
   }
   .demo-1 h2,
   .demo-2 h2 {
@@ -879,6 +876,7 @@ img {
   .demo-2 .demo-img {
     display: block;
     width: 100%;
+    margin-top: -165px;
   }
   .demo-1 .demo-description,
   .demo-2 .demo-description {
@@ -886,12 +884,13 @@ img {
     width: 100%;
     text-align: center;
     margin: 0;
-    margin-top: 350px;
+    margin-top: 250px;
     padding: 0;
   }
   .demo-1 img,
   .demo-2 img {
     width: 100wv;
+    margin-top: 100px;
     margin-left: auto;
   }
   .team-head {
@@ -907,11 +906,22 @@ img {
   .gallery-wrapper .gallery-item {
     position: relative;
     -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
+        flex: 0 0 100%;
     max-width: 100%;
   }
   .price-box {
     display: block;
+    width: 80vw;
+    margin-left: -70px;
+  }
+  .price-box .price-det h3 {
+    margin: 50px 0 -50px 0;
+  }
+  .price-box .price-det p:first-of-type {
+    margin: 50px 0 -50px 0;
+  }
+  .price-box .price-det p {
+    text-align: center;
   }
   .price-box .price-det i {
     margin: 3px 10px 0 0;
@@ -919,20 +929,20 @@ img {
   .map-box {
     display: block;
     width: 100vw;
-    margin-left: -128px;
+    margin-left: -110px;
   }
   .map-box .map-description {
     -ms-flex: 1;
-    flex: 1;
+        flex: 1;
     -ms-flex-order: 2;
-    order: 2;
+        order: 2;
     margin: 0 auto;
   }
   .map-box .map-img {
     -ms-flex: 1;
-    flex: 1;
+        flex: 1;
     -ms-flex-order: 1;
-    order: 1;
+        order: 1;
     margin-top: 30px;
   }
   .extention {
@@ -942,17 +952,17 @@ img {
     width: 90%;
   }
   .extention .extention-inner .btn-end:hover a {
-    margin-left: 40%;
+    margin-left: 20%;
   }
   .extention .extention-inner a {
-    margin-left: -40%;
+    margin-left: -20%;
   }
   .footer .container .rights {
-    font-size: 10px;
     margin-left: 0;
     width: 200px;
   }
   .footer .container .rights p {
+    margin-top: 6px;
     width: 300px;
   }
   .footer .container .rights img {
@@ -960,14 +970,26 @@ img {
     width: 25px;
   }
   .footer-menu {
-    margin-left: 80px;
-    font-size: 10px;
+    margin: 0;
   }
   .footer-menu .menu {
-    display: block;
+    -ms-flex-flow: wrap column;
+        flex-flow: wrap column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin: 0 auto;
   }
-  .footer-menu .menu li:last-of-type {
+  .footer-menu .menu li {
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  .footer-menu .menu li li {
     margin: 0;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 10px 0;
+    width: 130px;
+    z-index: 2;
   }
 }
 
@@ -980,7 +1002,7 @@ img {
   }
   .about-item {
     -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
+        flex: 0 0 50%;
   }
   .demonstration .container {
     max-width: 100%;
@@ -1026,7 +1048,7 @@ img {
   .gallery-wrapper .gallery-item {
     position: relative;
     -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
+        flex: 0 0 100%;
     max-width: 100%;
   }
   .price-box {
@@ -1042,16 +1064,16 @@ img {
   }
   .map-box .map-description {
     -ms-flex: 1;
-    flex: 1;
+        flex: 1;
     -ms-flex-order: 2;
-    order: 2;
+        order: 2;
     margin: 0 auto;
   }
   .map-box .map-img {
     -ms-flex: 1;
-    flex: 1;
+        flex: 1;
     -ms-flex-order: 1;
-    order: 1;
+        order: 1;
     margin-top: 30px;
   }
   .extention {
@@ -1095,7 +1117,7 @@ img {
   }
   .about-item {
     -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
+        flex: 0 0 50%;
   }
   .demonstration .container {
     max-width: 100%;
@@ -1141,7 +1163,7 @@ img {
   .gallery-wrapper .gallery-item {
     position: relative;
     -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
+        flex: 0 0 50%;
     max-width: 50%;
   }
   .price-box {
@@ -1157,16 +1179,16 @@ img {
   }
   .map-box .map-description {
     -ms-flex: 1;
-    flex: 1;
+        flex: 1;
     -ms-flex-order: 2;
-    order: 2;
+        order: 2;
     margin: 0 auto;
   }
   .map-box .map-img {
     -ms-flex: 1;
-    flex: 1;
+        flex: 1;
     -ms-flex-order: 1;
-    order: 1;
+        order: 1;
     margin-top: 30px;
   }
   .extention {
